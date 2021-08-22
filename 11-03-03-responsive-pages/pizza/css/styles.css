@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+header,
+footer {
+  height: 100px;
+  background-color: #999;
+}
+.menu {
+  text-align: center;
+  padding: 50px 10px;
+  background-color: #e5e5e5;
+}
+.menu-title {
+  font-family: Oswald, sans-serif;
+  font-size: 53px;
+  color: red;
+  margin-bottom: 10px;
+}
+.menu-descr {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.menu-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card-image {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.card-title {
+  font-family: Oswald, sans-serif;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 10px;
+}
+.card-descr {
+  color: #222;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.card-price {
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.card-order {
+  display: inline-block;
+  font-size: 18px;
+  color: #222;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+}
+.card-order:hover {
+  background-color: #ccc;
+}
+@media (min-width: 768px) {
+  .card {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card > div {
+    width: 48%;
+  }
+  .card-image {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    width: 980px;
+    margin: 0 auto;
+  }
+  .menu-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 450px;
+    align-items: stretch;
+  }
+  .card .card-image {
+    width: 58%;
+  }
+  .card .card-info {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .card-info > div {
+    margin-bottom: 0;
+  }
+  .card-info > * {
+    margin: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .wrapper {
+    width: 1024px;
+  }
+}

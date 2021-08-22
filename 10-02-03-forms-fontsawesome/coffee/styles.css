@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+body * {
+  box-sizing: border-box;
+}
+.coffee {
+  margin: 30px 0;
+  padding: 100px 0;
+  background-color: #e5e5e7;
+}
+.school-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.school-wrapper > div {
+  width: 470px;
+}
+.left {
+  background: #111;
+  color: white;
+  padding: 30px;
+}
+.content {
+  border: 1px solid white;
+  padding: 30px;
+  text-align: center;
+}
+.left .subtitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.left .title {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.left .descr {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.left .action {
+  font-size: 21px;
+  color: white;
+  background-color: #df983f;
+  text-decoration: none;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+.right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.right > div {
+  width: 50%;
+  background-color: white;
+  padding: 15px;
+}
+.right .image {
+  background-color: gray;
+}

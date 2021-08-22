@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/45-10-05-react-components/react-class" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/45-10-05-react-components/react-functions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/46-11-05-react-data-flow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/47-12-05-context" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/47-12-05-react" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/48-17-05-react-book-comments-hometask/47-home-solution" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/49-18-05-react/cocktails" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/50-19-05-react-lifecycle-fetching-classes/lifecycle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/51-20-05-react-fecthing-functions/fetching-functions" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/52-25-05-react-router/router" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/53-26-05-react/practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/54-27-05-practice/practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/57-02-06-redux/redux-intro" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/58-03-06-redux/practice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/61-08-06-personbook-project/FE-17-m" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/62-09-06-mini-project-react-redux/mini-app-todo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/71-22-06-mini project-todo-server/FE-17-m" vcs="Git" />
+  </component>
+</project>

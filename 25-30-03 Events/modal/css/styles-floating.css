@@ -1,0 +1,59 @@
+body {
+  padding: 300px;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.container:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.container:before {
+  display: block;
+}
+
+.container > div {
+  width: 45%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.left {
+  background-color: green;
+  float: left;
+}
+
+.right {
+  background-color: red;
+  float: right;
+}
+
+.clearfix {
+  clear: both;
+}
+
+p {
+  text-align: justify;
+}
+
+.floating {
+  width: 150px;
+  float: left;
+  padding: 0 10px 10px 0;
+}
+
+.floating-1 {
+  width: 50px;
+  float: right;
+  padding: 10px 0 10px 10px;
+}

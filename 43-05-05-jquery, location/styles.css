@@ -1,0 +1,13 @@
+.first {
+  color: red;
+}
+
+p img {
+  float: left;
+  padding: 20px;
+}
+p:after {
+  display: block;
+  clear: both;
+  content: "";
+}

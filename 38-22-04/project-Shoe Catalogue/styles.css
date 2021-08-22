@@ -1,0 +1,47 @@
+body {
+  box-sizing: border-box;
+}
+form {
+  padding: 150px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around; */
+}
+input[type="text"],
+select {
+  width: 100%;
+  display: block;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #3a0088;
+  border-radius: 4px;
+}
+button {
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #3a0088;
+  border-radius: 4px;
+  background-color: #3a0088;
+  color: #ffbd39;
+  font-size: 24px;
+}
+label {
+  color: #3a0088;
+  font-size: 24px;
+}
+::placeholder,
+select {
+  color: #ffbd39;
+  font-size: 20px;
+}
+#catalogue {
+  display: flex;
+  flex-wrap: wrap;
+}
+#catalogue div {
+  padding: 20px;
+  margin: 10px;
+  width: 25%;
+  border: 1px dotted #3a0088;
+  color: #3a0088;
+}

@@ -1,0 +1,97 @@
+a {
+  text-decoration: none;
+}
+/* pseudo classes */
+
+a:visited {
+  color: green;
+}
+a:active {
+  background-color: aquamarine;
+  border-bottom: 1px solid aquamarine;
+  padding-bottom: 5px;
+}
+a:hover {
+  color: red;
+}
+a:focus {
+  border-bottom: 1px solid aquamarine;
+  padding-bottom: 5px;
+  outline: none;
+}
+.first li:first-child {
+  color: red;
+}
+.first li:last-child {
+  color: blue;
+}
+.first li:nth-child(3) {
+  color: yellow;
+}
+li {
+  list-style: none;
+}
+.second li:nth-child(even) {
+  background-color: sandybrown;
+}
+.third li:nth-child(2n + 3) {
+  background-color: sandybrown;
+}
+input:checked + label {
+  color: red;
+}
+input:required + label {
+  color: blue;
+  font-weight: 900;
+}
+
+/* pseudo-elements */
+
+p::selection {
+  color: #93329e;
+  background-color: white;
+}
+p::first-letter {
+  font-size: 36px;
+}
+p::first-line {
+  text-decoration: underline;
+}
+h1::before {
+  content: "Content,";
+}
+h1::after {
+  content: "my dear world";
+}
+.before-element {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  position: relative;
+}
+.before-element::before {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  background-color: blue;
+  top: 35px;
+  right: 30px;
+  border-radius: 50%;
+  z-index: 5;
+}
+.before-element::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: red;
+    top: 30px;
+    right: 30px;
+    border-radius: 50%;
+  }
+  

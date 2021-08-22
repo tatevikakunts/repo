@@ -1,0 +1,34 @@
+.mosaic .row > div {
+  margin-bottom: 30px;
+}
+.lamp {
+  padding: 50px 0;
+}
+.lamp .container > div {
+  margin-bottom: 30px;
+}
+.lamp-image {
+  overflow: hidden;
+}
+.lamp-image img {
+  max-height: 100%;
+  position: relative;
+  float: right;
+}
+.lamp-image:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+@media (min-width: 768px) {
+  .lamp {
+    background-image: url(../../Homework/HW-10_0303_Akunts-1/images/section7-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: cover;
+    height: 500px;
+  }
+  .lamp-image {
+    display: none;
+  }
+}

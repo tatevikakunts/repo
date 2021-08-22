@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+.contact {
+  padding: 100px 0;
+}
+.contact-title {
+  font-size: 45px;
+}
+.contact-title span {
+  font-weight: 700;
+}
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.contact-wrapper > div {
+  width: 45%;
+}
+.contact-image {
+  order: 1;
+}
+.contact-form {
+  padding: 50px;
+}
+.form-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+.form-title span {
+  font-weight: 700;
+}
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.contact-form textarea {
+  height: 100px;
+}
+
+.contact-form input[type="submit"] {
+  display: inherit;
+  width: inherit;
+  background-color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shoe shop</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section>
+      <form action="#">
+        <input type="text" id="title" placeholder="Title" />
+        <input type="text" id="color" placeholder="Color" />
+        <select name="category" id="category"></select>
+        <!-- <input type="text" id="category" placeholder="Category" /> -->
+        <div>
+          <input type="checkbox" name="size" value="36" />
+          <label for="size">36</label>
+          <input type="checkbox" name="size" value="37" />
+          <label for="size">37</label>
+          <input type="checkbox" name="size" value="38" />
+          <label for="size">38</label>
+          <input type="checkbox" name="size" value="39" />
+          <label for="size">39</label>
+        </div>
+
+        <button type="submit">Add Item</button>
+      </form>
+    </section>
+    <section>
+      <select name="" id="filterCategory">
+        <option value="All">All Items</option>
+      </select>
+    </section>
+    <section id="catalogue"></section>
+    <script src="./app.js"></script>
+  </body>
+</html>

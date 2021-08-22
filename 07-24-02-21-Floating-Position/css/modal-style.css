@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+section {
+  padding: 5px;
+}
+
+.modal-wrapper {
+  display: none; /* display: block; */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: dimgray;
+}
+
+.modal {
+  position: absolute;
+  width: 300px;
+  min-height: 300px;
+  background-color: #fff;
+  border-radius: 30px;
+  top: 250px;
+  left: 50%;
+  padding: 40px;
+  margin-left: -150px;
+  /* left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%; */
+}
+
+.close-me {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  text-align: center;
+  line-height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}

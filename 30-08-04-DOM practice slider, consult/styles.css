@@ -1,0 +1,38 @@
+body * {
+  box-sizing: border-box;
+}
+#slideshowBlock {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 50px;
+  border: 1px dotted green;
+}
+#slideshowBlock img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+#slider {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+#bigPic {
+  text-align: center;
+  margin-top: 30px;
+}
+#slider img {
+  width: 65%;
+}
+#slider a {
+  display: inline-block;
+  font-size: 52px;
+  color: gray;
+}
+#prev a {
+  position: absolute;
+}

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+.our-team {
+  margin: 30px 0;
+  padding: 100px 0;
+  background-color: #e0e5eb;
+  text-align: center;
+}
+.team-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 75px;
+  color: red;
+  margin-bottom: 40px;
+}
+.team-descr {
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.members {
+  display: flex;
+  justify-content: center;
+}
+img {
+  max-height: 100%;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 240px;
+  height: 320px;
+  overflow: hidden;
+  background-color: white;
+}
+.card-photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member:nth-child(2) .card-photo {
+  order: 1;
+}
+.card-info {
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 21px;
+  text-transform: uppercase;
+  /* margin-bottom: 10px; */
+}
+.card-position {
+  font-size: 18px;
+  text-transform: lowercase;
+  font-weight: 700;
+  color: red;
+  /* margin-bottom: 10px; */
+}
+.card-descr {
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+.card-socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.card-socials li {
+  margin-right: 20px;
+}
+.card-socials li:last-child {
+  margin-right: 0;
+}
+.card-socials a {
+  color: #888;
+  text-decoration: none;
+  font-size: 21px;
+}

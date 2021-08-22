@@ -1,0 +1,11 @@
+{
+  "name": "41-03-05-webpack",
+  "version": "1.0.0",
+  "description": "First test project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tatevik Akunts",
+  "license": "ISC"
+}

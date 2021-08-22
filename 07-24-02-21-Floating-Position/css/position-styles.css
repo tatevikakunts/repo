@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  min-height: 1500px;
+}
+header {
+  background-color: #eee;
+  font-size: 21px;
+  text-align: center;
+  color: blue;
+  padding: 10px 0;
+  position: fixed;
+  /* width: 30%;
+  top: 20px; */
+  width: 100%;
+  top: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px;
+}
+header + div {
+  padding-top: 150px;
+}
+
+.pos-rel {
+  position: relative;
+  width: 35%;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  height: 300px;
+  /* top: 100px; */
+  /* left: 50px; */
+  padding: 30px;
+}
+
+.pos-abs {
+  width: 40px;
+  height: 40px;
+  /* background-color: red; */
+  background-image: url("https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/c76c980cf1185befbf82571e/pexelsphoto3276129.jpeg");
+  background-size: contain;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  box-shadow: rgba(0, 0, 0, 0.4) 5px 5px 20px;
+}
+
+.img-wrapper {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.2) 5px 5px 20px;
+}
+
+.image {
+  background-image: url("https://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/c76c980cf1185befbf82571e/pexelsphoto3276129.jpeg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

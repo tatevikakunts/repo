@@ -1,0 +1,96 @@
+body {
+  padding: 50px;
+}
+.hover {
+  display: inline-block;
+  color: red;
+  text-decoration: none;
+  font-size: 50px;
+  background-color: aqua;
+  padding: 20px 50px;
+  /* transition: all 1s; */
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-property: box-shadow;
+}
+.hover:hover {
+  color: green;
+  background-color: gainsboro;
+  border-radius: 40px;
+  transform: scale(1.5);
+  transform: rotate3d(1, 1, 1, 45deg);
+  box-shadow: 10px 5px 5px red;
+}
+.red-yellow {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: red-yellow;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  margin-bottom: 30px;
+}
+/* @keyframes red-yellow {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+} */
+@keyframes red-yellow {
+  0% {
+    background-color: red;
+  }
+  33% {
+    background-color: yellow;
+  }
+  66% {
+    background-color: green;
+  }
+  100% {
+    background-color: red;
+  }
+}
+.wrapper {
+  width: 80%;
+  height: 50px;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 0 auto;
+  position: relative;
+}
+.left-right {
+  width: 30px;
+  height: 30px;
+  background-color: green;
+  position: absolute;
+  /* right: inherit; */
+  top: 10px;
+  left: 10px;
+}
+.wrapper:hover .left-right {
+  /* left: inherit;
+  right: 10px; */
+  animation-name: moving;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+@keyframes moving {
+  0% {
+    left: 10px;
+  }
+  25% {
+    left: 25%;
+  }
+  50% {
+    left: 50%;
+  }
+  75% {
+    left: 75%;
+  }
+  100% {
+    left: 100%;
+    transform: translate(-35px);
+  }
+}

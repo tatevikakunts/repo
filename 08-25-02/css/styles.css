@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body * {
+  box-sizing: border-box;
+}
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.relative {
+  position: relative;
+}
+.learn-girl {
+  width: 500px;
+  height: 500px;
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/8b2e87c953e95fc5a5fc2e5b/wsqd-min.jpg);
+  background-size: contain;
+  border-radius: 50%;
+}
+.learn-salad {
+  width: 200px;
+  height: 200px;
+  background-image: url(https://images03.nicepage.io/c461c07a441a5d220e8feb1a/cca8271d596c5228a96abdfe/salad_144627-39466.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: 5px white solid;
+  position: absolute;
+  top: 300px;
+  left: 0;
+}
+.learn-info {
+  width: 500px;
+  position: absolute;
+  top: 400px;
+  left: 250px;
+}
+.learn-title {
+  font-size: 180px;
+  color: #fe4323;
+  font-weight: 900;
+}
+.learn-subtitle {
+  color: #808080;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.learn-text {
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.btn-red {
+  background-color: #fe4323;
+  color: white;
+}

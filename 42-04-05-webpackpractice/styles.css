@@ -1,0 +1,21 @@
+#form {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+#form > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+#form > div > * {
+  display: block;
+  width: 48%;
+}
+#form label {
+  text-align: right;
+}
+
+.hide {
+  display: none;
+}
